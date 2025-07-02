@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps Landing Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+        }
+        nav a:hover {
+            background-color: #555;
+            border-radius: 5px;
+        }
+        .hero {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+        .hero button {
+            background-color: white;
+            color: #007bff;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.1em;
+            cursor: pointer;
+        }
+        .section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .section h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .content {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .content div {
+            width: 30%;
+            padding: 20px;
+            box-sizing: border-box;
+            background-color: white;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .content h3 {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">DevOps</div>
+        <div>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </div>
+    </nav>
+    <section class="hero">
+        <h1>Welcome to the World of DevOps</h1>
+        <p>Learn, collaborate, and automate with DevOps best practices.</p>
+        <button>Get Started</button>
+    </section>
+    <section class="section">
+        <h2>What is DevOps?</h2>
+        <div class="content">
+            <div>
+                <h3>Collaboration</h3>
+                <p>DevOps emphasizes collaboration and communication between development and operations teams.</p>
+            </div>
+            <div>
+                <h3>Automation</h3>
+                <p>Automating repetitive tasks and processes is a core principle of DevOps.</p>
+            </div>
+            <div>
+                <h3>Continuous Improvement</h3>
+                <p>DevOps promotes an iterative approach with continuous feedback and improvement.</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
