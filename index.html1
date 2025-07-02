@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Example 1</title>
+</head>
+
+<body>
+    <h1 style="color: green;">
+        GeeksforGeeks
+    </h1>
+    <h3>
+        Using Inline Styling
+    </h3>
+    <button style=
+        "background-color: blue; 
+        color: white;" onclick="colorFn(this)">
+        Click me
+    </button>
+    <button style=
+        "background-color: red; 
+        color: white;" onclick="colorFn(this)">
+        Click me
+    </button>
+    <button style=
+        "background-color: green; 
+        color: white;" onclick="colorFn(this)">
+        Click me
+    </button>
+    <script>
+        function colorFn(element) {
+            const color = randomFn();
+            element.style.backgroundColor = color;
+        }
+        function randomFn() {
+            const l = '0123456789ABCDEF';
+            let color = '#';
+            for (let i = 0; i < 6; i++) {
+                color += l[Math.floor(Math.random() * 16)];
+            }
+            return color;
+        }
+    </script>
+</body>
+
+</html>
